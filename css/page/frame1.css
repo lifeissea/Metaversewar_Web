@@ -1,239 +1,42 @@
-.send_troops {
+.middle-section__frame1 {
   position: absolute;
-  width: 114px;
-  height: 56px;
-  left: 20px;
-  top: 52px;
-
-  font-family: "Copperplate";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 28px;
-  /* or 78% */
-
-  letter-spacing: -0.06em;
-
-  color: #000000;
-}
-
-.nation_select_box {
-  /* Group 163808 */
-  position: absolute;
-  width: 374px;
-  height: 415px;
-  left: 20px;
-  top: 128px;
-}
-
-/* Rectangle 9 */
-
-.Rectangle9 {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 106px;
-  height: 161px;
-  left: 36px;
-  top: 195px;
-
-  background: #eae2d0;
-  border: 1px solid #fbbec1;
-  border-radius: 4px;
-}
-
-/* archer */
-
-.archer_text {
-  position: absolute;
-  width: 40px;
-  height: 12px;
-  left: 69px;
-  top: 201px;
-
-  font-family: "Copperplate";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 12px;
-  /* identical to box height, or 100% */
-
   display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.06em;
-
-  color: #4b4841;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 2rem;
 }
 
-/* Scroll Group 5 1 */
-
-.ScrollGroup5_1 {
-  position: absolute;
-  width: 106px;
-  height: 131px;
-  left: 36px;
-  top: 217px;
-}
-
-.Rectangle10 {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 106px;
-  height: 161px;
-  left: 154px;
-  top: 195px;
-
-  background: #eae2d0;
-  border: 1px solid #fbbec1;
-  border-radius: 4px;
-}
-
-.cavalry_text {
-  position: absolute;
-  width: 42px;
-  height: 12px;
-  left: 186px;
-  top: 201px;
-
-  font-family: "Copperplate";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 12px;
-  /* identical to box height, or 100% */
-
+.middle-section__frame1__ul {
+  height: 40%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
-  letter-spacing: -0.06em;
-
-  color: #4b4841;
+  padding: 0 1rem;
 }
 
-.ScrollGroup5_2 {
-  position: absolute;
-  width: 106px;
-  height: 131px;
-  left: 154px;
-  top: 217px;
-}
-
-.Rectangle11 {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 106px;
-  height: 161px;
-  left: 272px;
-  top: 195px;
-
-  background: #eae2d0;
-  border: 1px solid #fbbec1;
-  border-radius: 4px;
-}
-
-.infantry_text {
-  position: absolute;
-  width: 48px;
-  height: 12px;
-  left: 301px;
-  top: 201px;
-
-  font-family: "Copperplate";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 12px;
-  /* identical to box height, or 100% */
-
+.middle-section__frame1__box1 {
+  margin: 0.5rem 0.2rem;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+
+.middle-seciton__frame1__sol1 {
+  height: 80%;
+  width: 100%;
+  border: solid #fbbec1 1px;
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.middle-seciton__frame1__comment {
+  height: 30%;
+  margin: 0 1rem;
+  display: flex;
   text-align: center;
-  letter-spacing: -0.06em;
-
-  color: #4b4841;
-}
-
-.ScrollGroup5_3 {
-  position: absolute;
-  width: 106px;
-  height: 131px;
-  left: 272px;
-  top: 217px;
-}
-
-.group1 {
-  position: absolute;
-  width: 98px;
-  height: 24px;
-  left: 158px;
-  top: 372px;
-
-  background: #d2c7af;
-}
-
-.Subtract {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 374px;
-  height: 48px;
-  left: 20px;
-  top: 559px;
-
-  background: linear-gradient(90.94deg, #9f4145 0%, #903d40 100%);
-  /* Small */
-
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.earn_foreign_currency_text {
-  position: absolute;
-  width: 211px;
-  height: 21px;
-  left: 102px;
-  top: 572px;
-
-  font-family: "Copperplate";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 21px;
-
-  /* identical to box height */
-
-  letter-spacing: -0.06em;
-
-  color: #ffffff;
-}
-
-.Rectangle18 {
-  position: absolute;
-  width: 414px;
-  height: 72px;
-  left: 0px;
-  top: 633px;
-
-  background: linear-gradient(
-    180deg,
-    rgba(210, 199, 175, 0.2) 0%,
-    rgba(229, 222, 204, 0.2) 39.58%,
-    rgba(173, 165, 148, 0.2) 100%
-  );
-  box-shadow: 0px -8px 8px rgba(0, 0, 0, 0.05);
-}
-
-.Rectangle19 {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 414px;
-  height: 72px;
-  left: 0px;
-  top: 633px;
-
-  mix-blend-mode: multiply;
-  border: 1px solid #e9d2d3;
+  align-items: center;
+  border-top: 0.1rem solid #e3dbc9;
 }

@@ -10,6 +10,7 @@
 @import "css/page/login.css";
 @import "css/page/main.css";
 @import "css/page/frame1.css";
+@import "css/page/frame17.css";
 
 body {
   display: flex;
@@ -18,5 +19,5 @@ body {
   background-image: url("img/background.png");
   background-position: center;
   background-size: cover;
-  font-family: "Poppins", sans-serif;
+  font-family: pretendard, sans-serif;
 }
