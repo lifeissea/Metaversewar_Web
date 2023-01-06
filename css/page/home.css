@@ -1,0 +1,68 @@
+.home-middle-section {
+  height: 100%;
+  width: 320px;
+}
+
+.home-middle-section__top__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5% auto;
+  position: relative;
+}
+
+.home-middle-section__top__btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #d4c8ad;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  border: solid #c2ae9b 3px;
+  color: #65272a;
+}
+
+.home-middle-section__main__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.home-middle-section__main__box__img {
+  width: 320px;
+  vertical-align: middle;
+}
+.home-middle-section__main__box__info {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 100%;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.home-middle-section__main__box__info__list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.home-middle-section__main__box__info__pve {
+  top: 70%;
+  left: 10%;
+  width: 100%;
+  position: absolute;
+  text-align: left;
+  left: 10%;
+}
+.home-middle-section__main__box__info__pve__progress {
+  position: absolute;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.home-middle-section__main__box__info__pve__progress__nation {
+  display: flex;
+  justify-content: space-between;
+}

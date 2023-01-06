@@ -5,19 +5,22 @@
 @import "css/components.css";
 
 /*page*/
-@import "css/page/menu.css";
-@import "css/page/nation_select.css";
+@import "css/page/select-nation.css";
 @import "css/page/login.css";
-@import "css/page/main.css";
-@import "css/page/frame1.css";
-@import "css/page/frame17.css";
+@import "css/page/home.css";
 
 body {
+  min-width: 390px;
+  max-width: 1024px;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("img/background.png");
-  background-position: center;
-  background-size: cover;
+  background-image: url("img/basic/pattern__img.png"),
+    url("img/basic/background__paper.png");
+  background-position: top 0 center, center;
+  background-repeat: no-repeat;
+  background-size: 390px 311px, cover;
   font-family: pretendard, sans-serif;
+  position: relative;
 }
