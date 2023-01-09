@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Metaversewar_EP1</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f9c12ec948.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div>
@@ -28,52 +32,42 @@
             <div class="home-middle-section__main__box__info">
               <div class="home-middle-section__main__box__info__ul">
                 <div class="home-middle-section__main__box__info__list">
-                  <span class="">name</span>
+                  <span class="fix__name">name</span>
                   <span class="span__info__value">Tomas</span>
                 </div>
                 <div class="home-middle-section__main__box__info__list">
-                  <span>name</span>
-                  <span class="span__info__value">Tomas</span>
-                </div>
-              </div>
-              <div class="home-middle-section__main__box__info__ul">
-                <div class="home-middle-section__main__box__info__list">
-                  <span class="">name</span>
-                  <span class="span__info__value">Tomas</span>
-                </div>
-                <div class="home-middle-section__main__box__info__list">
-                  <span>name</span>
-                  <span class="span__info__value">Tomas</span>
+                  <span class="fix__name">wallet address</span>
+                  <span class="span__info__value">0x723..5684</span>
                 </div>
               </div>
               <div class="home-middle-section__main__box__info__ul">
                 <div class="home-middle-section__main__box__info__list">
-                  <span class="">name</span>
-                  <span class="span__info__value">Tomas</span>
+                  <span class="fix__name">nation</span>
+                  <span class="span__info__value">Goguryeo</span>
                 </div>
                 <div class="home-middle-section__main__box__info__list">
-                  <span>name</span>
-                  <span class="span__info__value">Tomas</span>
-                </div>
-              </div>
-              <div class="home-middle-section__main__box__info__ul">
-                <div class="home-middle-section__main__box__info__list">
-                  <span class="">name</span>
-                  <span class="span__info__value">Tomas</span>
-                </div>
-                <div class="home-middle-section__main__box__info__list">
-                  <span>name</span>
-                  <span class="span__info__value">Tomas</span>
+                  <span class="fix__name">pve</span>
+                  <span class="span__info__value">14234th</span>
                 </div>
               </div>
               <div class="home-middle-section__main__box__info__ul">
                 <div class="home-middle-section__main__box__info__list">
-                  <span class="">name</span>
-                  <span class="span__info__value">Tomas</span>
+                  <span class="fix__name">pvp (3:3)</span>
+                  <span class="span__info__value">34th</span>
                 </div>
                 <div class="home-middle-section__main__box__info__list">
-                  <span>name</span>
-                  <span class="span__info__value">Tomas</span>
+                  <span class="fix__name">pvp (1:1)</span>
+                  <span class="span__info__value">345th</span>
+                </div>
+              </div>
+              <div class="home-middle-section__main__box__info__ul">
+                <div class="home-middle-section__main__box__info__list">
+                  <span class="fix__name">main soldier</span>
+                  <span class="span__info__value">12432</span>
+                </div>
+                <div class="home-middle-section__main__box__info__list">
+                  <span></span>
+                  <span class="span__info__value"></span>
                 </div>
               </div>
             </div>
@@ -82,26 +76,26 @@
                 <div
                   class="home-middle-section__main__box__info__contents__list"
                 >
-                  <span class="">enlist</span>
-                  <span class="span__info__value">Tomas</span>
+                  <span class="fix__name">enlist</span>
+                  <span class="span__info__value">16h04m</span>
                 </div>
                 <div
                   class="home-middle-section__main__box__info__contents__list"
                 >
-                  <span>sned troops</span>
-                  <span class="span__info__value">Tomas</span>
+                  <span class="fix__name">sned troops</span>
+                  <span class="span__info__value">06:25</span>
                 </div>
               </div>
             </div>
             <div class="home-middle-section__main__box__info__pve">
-              <span class="span__item__name"
+              <span class="span__item__name pve__name__title"
                 >Three kingdoms of korea (pve)</span
               >
               <div class="home-middle-section__main__box__info__pve__progress">
                 <div
                   class="home-middle-section__main__box__info__pve__progress__nation"
                 >
-                  <span>Goguryeo</span
+                  <span class="span__normal__name pve__name">Goguryeo</span
                   ><progress
                     id="pve-progress"
                     value="50"
@@ -112,7 +106,7 @@
                 <div
                   class="home-middle-section__main__box__info__pve__progress__nation"
                 >
-                  <span>Baekje</span>
+                  <span class="span__normal__name pve__name">Baekje</span>
 
                   <progress
                     id="pve-progress"
@@ -125,7 +119,7 @@
                 <div
                   class="home-middle-section__main__box__info__pve__progress__nation"
                 >
-                  <span>Sila</span
+                  <span class="span__normal__name pve__name">Sila</span
                   ><progress
                     id="pve-progress"
                     value="50"
@@ -139,7 +133,28 @@
         </div>
       </div>
       <div class="bottom-section">
-        <div class="nav">test</div>
+        <div class="nav">
+          <div class="nav_home nav-item">
+            <i class="fa-solid fa-house fa-lg"></i>
+            <span class="span__normal__name">home</span>
+          </div>
+          <div class="nav-shop nav-item">
+            <i class="fa-solid fa-shop fa-lg"></i>
+            <span class="span__normal__name">shop</span>
+          </div>
+          <div class="nav-play nav-item">
+            <i class="fa-solid fa-gamepad fa-lg"></i>
+            <span class="span__normal__name">play</span>
+          </div>
+          <div class="nav-inventory nav-item">
+            <i class="fa-solid fa-suitcase fa-lg"></i>
+            <span class="span__normal__name">inventory</span>
+          </div>
+          <div class="nav-collect nav-item">
+            <i class="fa-solid fa-box-open fa-lg"></i>
+            <span class="span__normal__name">collect</span>
+          </div>
+        </div>
       </div>
     </div>
     <script src="app.js"></script>

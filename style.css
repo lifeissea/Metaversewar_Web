@@ -3,6 +3,7 @@
 
 /*companents*/
 @import "css/components.css";
+@import "css/nav.css";
 
 /*page*/
 @import "css/page/select-nation.css";
