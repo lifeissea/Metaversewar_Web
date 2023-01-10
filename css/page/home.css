@@ -79,7 +79,7 @@
 
 .home-middle-section__main__box__info__contents {
   position: absolute;
-  top: 47%;
+  top: 50%;
   width: 100%;
   display: flex;
 }
@@ -102,4 +102,27 @@
 
 .pve__name__title {
   color: #933e42;
+}
+
+.top-section__point__box {
+  display: flex;
+}
+
+.top-section__point__box i {
+  color: #65272a;
+  margin-right: 0.2rem;
+}
+
+.top-section__point__box__point {
+  display: flex;
+  margin-right: 1rem;
+  padding: 0.1rem 0.15rem;
+  border: 0.1rem solid #933e42;
+  border-radius: 0.25rem;
+}
+.top-section__point__box__token {
+  display: flex;
+  padding: 0.1rem 0.15rem;
+  border: 0.1rem solid #933e42;
+  border-radius: 0.25rem;
 }
